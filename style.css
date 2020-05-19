@@ -1,0 +1,73 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background: linear-gradient(48deg, black, rgb(36, 35, 35));
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+#app{
+    display: flex;
+    justify-content: center;
+}
+#typeTodo, #addTodo{
+    padding: 10px;
+    outline: none;
+    border: none;
+    opacity: 0.9;
+    margin: 5px;
+    cursor: pointer;
+}
+#typeTodo:hover, #addTodo:hover{
+    transition: 300ms;
+    opacity: 1;
+}
+#show{
+    margin: 5px;
+    padding: 10px;
+    outline: none;
+    border: none;
+    min-width: 150px;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+}
+#show:hover{
+    transition: 250ms;
+    background-color: #e03636;
+    color: white;
+    font-weight: bold;
+    transform: scale(1.1);
+}
+.list{
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.list a{
+    align-self: center;
+    border: 1px solid #e03636;
+    padding: 5px;
+    margin: 10px 0px;
+    color: #e03636;
+    text-decoration: none;
+}
+.list a:hover{
+    color: black;
+    font-weight: bold;
+    background-color: #e03636;
+}
+.list li{
+    max-width: 800px;
+    align-self: center;
+    padding: 5px;
+    color: white;
+    list-style: none;
+}
+footer{
+    color: white;
+    margin-top: 100px;
+    text-align: center;
+} 
